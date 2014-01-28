@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4C3467189722A9002B4D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4C3466189722A9002B4D93 /* Main.storyboard */; };
+		CA6793E81894E27D0094CF51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6793E71894E27D0094CF51 /* Foundation.framework */; };
+		CA6793EA1894E27D0094CF51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6793E91894E27D0094CF51 /* CoreGraphics.framework */; };
+		CA6793EC1894E27D0094CF51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6793EB1894E27D0094CF51 /* UIKit.framework */; };
+		CA6793F21894E27D0094CF51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA6793F01894E27D0094CF51 /* InfoPlist.strings */; };
+		CA6793F41894E27D0094CF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6793F31894E27D0094CF51 /* main.m */; };
+		CA6793F81894E27D0094CF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6793F71894E27D0094CF51 /* AppDelegate.m */; };
+		CA6793FE1894E27D0094CF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6793FD1894E27D0094CF51 /* ViewController.m */; };
+		CA6794001894E27D0094CF51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6793FF1894E27D0094CF51 /* Images.xcassets */; };
+		CA6794071894E27D0094CF51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6794061894E27D0094CF51 /* XCTest.framework */; };
+		CA6794081894E27D0094CF51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6793E71894E27D0094CF51 /* Foundation.framework */; };
+		CA6794091894E27D0094CF51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6793EB1894E27D0094CF51 /* UIKit.framework */; };
+		CA6794111894E27D0094CF51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA67940F1894E27D0094CF51 /* InfoPlist.strings */; };
+		CA6794131894E27D0094CF51 /* PaschaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6794121894E27D0094CF51 /* PaschaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA67940A1894E27D0094CF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6793DC1894E27D0094CF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6793E31894E27D0094CF51;
+			remoteInfo = Pascha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA4C3466189722A9002B4D93 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CA6793E41894E27D0094CF51 /* Pascha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pascha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6793E71894E27D0094CF51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA6793E91894E27D0094CF51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA6793EB1894E27D0094CF51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA6793EF1894E27D0094CF51 /* Pascha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pascha-Info.plist"; sourceTree = "<group>"; };
+		CA6793F11894E27D0094CF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA6793F31894E27D0094CF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA6793F51894E27D0094CF51 /* Pascha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pascha-Prefix.pch"; sourceTree = "<group>"; };
+		CA6793F61894E27D0094CF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA6793F71894E27D0094CF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA6793FC1894E27D0094CF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA6793FD1894E27D0094CF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA6793FF1894E27D0094CF51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA6794051894E27D0094CF51 /* PaschaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaschaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6794061894E27D0094CF51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA67940E1894E27D0094CF51 /* PaschaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaschaTests-Info.plist"; sourceTree = "<group>"; };
+		CA6794101894E27D0094CF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA6794121894E27D0094CF51 /* PaschaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaschaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6793E11894E27D0094CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6793EA1894E27D0094CF51 /* CoreGraphics.framework in Frameworks */,
+				CA6793EC1894E27D0094CF51 /* UIKit.framework in Frameworks */,
+				CA6793E81894E27D0094CF51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6794021894E27D0094CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6794071894E27D0094CF51 /* XCTest.framework in Frameworks */,
+				CA6794091894E27D0094CF51 /* UIKit.framework in Frameworks */,
+				CA6794081894E27D0094CF51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6793DB1894E27D0094CF51 = {
+			isa = PBXGroup;
+			children = (
+				CA6793ED1894E27D0094CF51 /* Pascha */,
+				CA67940C1894E27D0094CF51 /* PaschaTests */,
+				CA6793E61894E27D0094CF51 /* Frameworks */,
+				CA6793E51894E27D0094CF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6793E51894E27D0094CF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6793E41894E27D0094CF51 /* Pascha.app */,
+				CA6794051894E27D0094CF51 /* PaschaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6793E61894E27D0094CF51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6793E71894E27D0094CF51 /* Foundation.framework */,
+				CA6793E91894E27D0094CF51 /* CoreGraphics.framework */,
+				CA6793EB1894E27D0094CF51 /* UIKit.framework */,
+				CA6794061894E27D0094CF51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA6793ED1894E27D0094CF51 /* Pascha */ = {
+			isa = PBXGroup;
+			children = (
+				CA6793F61894E27D0094CF51 /* AppDelegate.h */,
+				CA6793F71894E27D0094CF51 /* AppDelegate.m */,
+				CA6793FC1894E27D0094CF51 /* ViewController.h */,
+				CA6793FD1894E27D0094CF51 /* ViewController.m */,
+				CA4C3466189722A9002B4D93 /* Main.storyboard */,
+				CA6793FF1894E27D0094CF51 /* Images.xcassets */,
+				CA6793EE1894E27D0094CF51 /* Supporting Files */,
+			);
+			path = Pascha;
+			sourceTree = "<group>";
+		};
+		CA6793EE1894E27D0094CF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6793EF1894E27D0094CF51 /* Pascha-Info.plist */,
+				CA6793F01894E27D0094CF51 /* InfoPlist.strings */,
+				CA6793F31894E27D0094CF51 /* main.m */,
+				CA6793F51894E27D0094CF51 /* Pascha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA67940C1894E27D0094CF51 /* PaschaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6794121894E27D0094CF51 /* PaschaTests.m */,
+				CA67940D1894E27D0094CF51 /* Supporting Files */,
+			);
+			path = PaschaTests;
+			sourceTree = "<group>";
+		};
+		CA67940D1894E27D0094CF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA67940E1894E27D0094CF51 /* PaschaTests-Info.plist */,
+				CA67940F1894E27D0094CF51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6793E31894E27D0094CF51 /* Pascha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6794161894E27D0094CF51 /* Build configuration list for PBXNativeTarget "Pascha" */;
+			buildPhases = (
+				CA6793E01894E27D0094CF51 /* Sources */,
+				CA6793E11894E27D0094CF51 /* Frameworks */,
+				CA6793E21894E27D0094CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pascha;
+			productName = Pascha;
+			productReference = CA6793E41894E27D0094CF51 /* Pascha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6794041894E27D0094CF51 /* PaschaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6794191894E27D0094CF51 /* Build configuration list for PBXNativeTarget "PaschaTests" */;
+			buildPhases = (
+				CA6794011894E27D0094CF51 /* Sources */,
+				CA6794021894E27D0094CF51 /* Frameworks */,
+				CA6794031894E27D0094CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA67940B1894E27D0094CF51 /* PBXTargetDependency */,
+			);
+			name = PaschaTests;
+			productName = PaschaTests;
+			productReference = CA6794051894E27D0094CF51 /* PaschaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6793DC1894E27D0094CF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pascha Hokama";
+				TargetAttributes = {
+					CA6793E31894E27D0094CF51 = {
+						DevelopmentTeam = JP7JGNH77T;
+					};
+					CA6794041894E27D0094CF51 = {
+						TestTargetID = CA6793E31894E27D0094CF51;
+					};
+				};
+			};
+			buildConfigurationList = CA6793DF1894E27D0094CF51 /* Build configuration list for PBXProject "Pascha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6793DB1894E27D0094CF51;
+			productRefGroup = CA6793E51894E27D0094CF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6793E31894E27D0094CF51 /* Pascha */,
+				CA6794041894E27D0094CF51 /* PaschaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6793E21894E27D0094CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4C3467189722A9002B4D93 /* Main.storyboard in Resources */,
+				CA6794001894E27D0094CF51 /* Images.xcassets in Resources */,
+				CA6793F21894E27D0094CF51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6794031894E27D0094CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6794111894E27D0094CF51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6793E01894E27D0094CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6793FE1894E27D0094CF51 /* ViewController.m in Sources */,
+				CA6793F81894E27D0094CF51 /* AppDelegate.m in Sources */,
+				CA6793F41894E27D0094CF51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6794011894E27D0094CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6794131894E27D0094CF51 /* PaschaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA67940B1894E27D0094CF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6793E31894E27D0094CF51 /* Pascha */;
+			targetProxy = CA67940A1894E27D0094CF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA6793F01894E27D0094CF51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6793F11894E27D0094CF51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA67940F1894E27D0094CF51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6794101894E27D0094CF51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6794141894E27D0094CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CA6794151894E27D0094CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6794171894E27D0094CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pascha/Pascha-Prefix.pch";
+				INFOPLIST_FILE = "Pascha/Pascha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA6794181894E27D0094CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pascha/Pascha-Prefix.pch";
+				INFOPLIST_FILE = "Pascha/Pascha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA67941A1894E27D0094CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pascha.app/Pascha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pascha/Pascha-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PaschaTests/PaschaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA67941B1894E27D0094CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pascha.app/Pascha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pascha/Pascha-Prefix.pch";
+				INFOPLIST_FILE = "PaschaTests/PaschaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6793DF1894E27D0094CF51 /* Build configuration list for PBXProject "Pascha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6794141894E27D0094CF51 /* Debug */,
+				CA6794151894E27D0094CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6794161894E27D0094CF51 /* Build configuration list for PBXNativeTarget "Pascha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6794171894E27D0094CF51 /* Debug */,
+				CA6794181894E27D0094CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6794191894E27D0094CF51 /* Build configuration list for PBXNativeTarget "PaschaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA67941A1894E27D0094CF51 /* Debug */,
+				CA67941B1894E27D0094CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6793DC1894E27D0094CF51 /* Project object */;
+}
